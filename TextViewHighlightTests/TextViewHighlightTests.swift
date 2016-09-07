@@ -37,7 +37,7 @@ class TextViewHighlightTests: XCTestCase {
         //let expectation = expectationWithDescription("test")
         let textView: UITextView = UITextView(frame: CGRect(x: 0, y: 0, width: 300, height: 300))
         
-        textView.setMutiContentView("This is some %mark<string #ff8942> that %link<contains[https://yahoo.com.tw]> %mark<the> link this more %link<google[https://google.com.tw]> once. This %mark<substring> has multiple %mark<cases.> ThisthisThIs.")
+        textView.setMutiContentView("Sample: %mark<Mark;> %mark<Color code; #ff1234> %link<Google[https://google.com.tw]>")
     }
     
 }
