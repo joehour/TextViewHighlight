@@ -33,6 +33,8 @@ Example
         
        textView.setMutiContentView("Sample: %mark<Mark;> %mark<Color code; #ff1234> %link<Google[https://google.com.tw]>”)
 
+<img src="https://raw.githubusercontent.com/joehour/TextViewHighlight/master/Example/sample.png"  />
+
  
 License
 ----------
